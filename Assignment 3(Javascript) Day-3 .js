@@ -1,6 +1,6 @@
 //palindromes
 
-let str = "madam knows hannah well "
+let str = "madam knows anna well "
 let str1 = "", str2 = ""
   for (t of str) {
     if (t != " ") {
