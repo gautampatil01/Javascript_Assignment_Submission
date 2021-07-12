@@ -1,33 +1,51 @@
-body{
-    background-color: rgb(172, 226, 62);
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Cambria;
+    color:black;
+
 }
-button{
-    height: 38px;
-    background-color: rgb(0, 0, 0);
-    border: 2px solid black; 
-    color: white;
-    width: 200px;
-    text-align: left;
-    margin: auto;
+
+.container{
+    width:80%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-left: 10%;
+    background-color:lightpink;
+}
+
+.padd{
+        padding:20px;
+
+}
+.header{
+    height:50px;
+    width:100%;
+    /* background-color: red; */
     display: flex;
-    justify-content: left;
-    align-items: left;
-    font-size: x-large;
+    justify-content: space-between;
 }
-button:hover {
-    background-color: burlywood;
-    color: black;
+.cards{
+    width:100%;
+    /* background-color: lightslategray; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.card{
+    height:300px;
+    width:18%;
+    background-color: lightyellow;
+    margin-top: 20px;
+    background-size: cover;
+
+}
+.overlay{
+    height: 300px;
+    width: 100%;
+    background-color: darkgrey;
+}
+.opened{
+    display: none;
 } 
-.text{
-    width: 200px;
-    height: 29px;
-    text-align: center;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-p{
-    text-align: center;
-}
